@@ -33,7 +33,7 @@ The payment page offers only the coins you have set a wallet for in the Orboni d
 
 **Built for real donations**
 
-* Underpaid, overpaid, late and reversed payments are written on the donation as notes, and the donation waits in Processing for you instead of being counted by mistake.
+* Underpaid and reversed payments, and payments held for your review, leave the donation in Processing with a note, so nothing is counted by mistake. An overpaid donation is completed, and its note says how much arrived.
 * GiveWP's test mode uses your Orboni test key: try the whole flow, simulate a payment, and switch test mode off to take real donations.
 * Works with the visual form builder's forms and with GiveWP's option-based forms.
 
@@ -62,7 +62,7 @@ Orboni takes 37 currencies, listed above: the payment page shows the donation in
 
 = What happens if a donor sends too little or too much? =
 
-Too little: the payment page asks for the rest, and the donation waits in Processing with a note. If the page expires part paid, change the donation's amount to what arrived and complete it, or send the money back. Too much: the donation is completed, and a note says how much arrived in all.
+Too little: the payment page asks for the rest, and the donation waits in Processing with a note. If the page expires part paid, change the donation's amount to what arrived and complete it, or send the money back. Too much: the donation is completed, and a note says how much arrived in all. Only a payment far above the amount (over twice it, and over $50 more) to a Bitcoin-style address is held for your review in the Orboni dashboard first, since it may be someone else's payment; the donation waits in Processing until you accept it there.
 
 = Can donors give every month? =
 
