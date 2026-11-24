@@ -4,7 +4,7 @@ Tags: crypto, cryptocurrency, donations, usdt, bitcoin
 Requires at least: 6.5
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -99,6 +99,9 @@ Every request carries your Orboni secret key. Orboni's [Terms of Service](https:
 4. A donation paid with crypto, with Orboni's notes.
 
 == Changelog ==
+
+= 1.0.1 =
+* The notice that a newer GiveWP is needed shows on the Plugins screen only.
 
 = 1.0.0 =
 * First release: donations in 37 currencies, GiveWP's test mode with Orboni's test key, signed webhooks, read-backs without a webhook.
